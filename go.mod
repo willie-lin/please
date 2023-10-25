@@ -7,7 +7,7 @@ require (
 	github.com/bazelbuild/buildtools v0.0.0-20210920153738-d6daef01a1a2
 	github.com/bazelbuild/remote-apis v0.0.0-20210718193713-0ecef08215cf
 	github.com/bazelbuild/remote-apis-sdks v0.0.0-20210909182119-af1232ee0d79
-	github.com/cespare/xxhash/v2 v2.1.2
+	github.com/cespare/xxhash/v2 v2.2.0
 	github.com/coreos/go-semver v0.3.0
 	github.com/davecgh/go-spew v1.1.1
 	github.com/djherbis/atime v1.1.0
@@ -36,28 +36,29 @@ require (
 	github.com/thought-machine/go-flags v1.6.0
 	github.com/ulikunitz/xz v0.5.10
 	go.uber.org/automaxprocs v1.4.0
-	golang.org/x/crypto v0.0.0-20210920023735-84f357641f63
-	golang.org/x/net v0.0.0-20210917221730-978cfadd31cf
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210917161153-d61c044b1678
-	golang.org/x/tools v0.1.5
-	google.golang.org/genproto v0.0.0-20210917145530-b395a37504d4
-	google.golang.org/grpc v1.40.0
-	google.golang.org/protobuf v1.27.1
+	golang.org/x/net v0.9.0
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.7.0
+	golang.org/x/term v0.7.0
+	golang.org/x/tools v0.6.0
+	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1
+	google.golang.org/grpc v1.56.3
+	google.golang.org/protobuf v1.30.0
 	gopkg.in/op/go-logging.v1 v1.0.0-20160211212156-b2cb9fa56473
 	lukechampine.com/blake3 v1.1.5
 )
 
 require (
-	cloud.google.com/go v0.65.0 // indirect
+	cloud.google.com/go/compute v1.19.1 // indirect
+	cloud.google.com/go/compute/metadata v0.2.3 // indirect
+	cloud.google.com/go/longrunning v0.4.1 // indirect
 	github.com/StackExchange/wmi v1.2.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e // indirect
 	github.com/go-ole/go-ole v1.2.5 // indirect
-	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b // indirect
-	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/go-cmp v0.5.6 // indirect
-	github.com/google/uuid v1.1.2 // indirect
+	github.com/golang/glog v1.1.0 // indirect
+	github.com/golang/protobuf v1.5.3 // indirect
+	github.com/google/uuid v1.3.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/juju/ansiterm v0.0.0-20210706145210-9283cdf370b5 // indirect
@@ -76,10 +77,10 @@ require (
 	github.com/prometheus/procfs v0.6.0 // indirect
 	github.com/tklauser/go-sysconf v0.3.9 // indirect
 	github.com/tklauser/numcpus v0.3.0 // indirect
-	golang.org/x/oauth2 v0.0.0-20210514164344-f6687ab2804c // indirect
-	golang.org/x/term v0.0.0-20210615171337-6886f2dfbf5b // indirect
-	golang.org/x/text v0.3.7 // indirect
-	google.golang.org/appengine v1.6.6 // indirect
+	golang.org/x/crypto v0.0.0-20210920023735-84f357641f63 // indirect
+	golang.org/x/oauth2 v0.7.0 // indirect
+	golang.org/x/text v0.9.0 // indirect
+	google.golang.org/appengine v1.6.7 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
